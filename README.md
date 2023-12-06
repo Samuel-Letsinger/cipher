@@ -4,6 +4,6 @@ this simply uses a seed to make a psuedo-random number generator based on the se
 
 ## encoding using the cipher key
 
-to encode think of a word or phrase you wanna use to help encode it (remember this or write it down for later), in my example i am just gonna use "programmingiscool" and the text i wanna encode is "supersecretkey" 
+to encode think of a word or phrase you wanna use to help encode it (remember this or write it down for later), in my example i am just gonna use "programmingiscool" and the text i wanna encode is "supersecretkey" ![image deminstation](/image.png)
 
 ## decoding using the cipher key
