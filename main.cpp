@@ -8,9 +8,11 @@ void cipher(int seed) {
     char Chars[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     int str_length = sizeof(Chars) - 1;
     cout << "\n0" << Chars;
+    
     for (int i = 0; i < str_length; i++) {
         cout << "\n" << Chars[i];
         for (int j = 0; j < str_length; j++) {
+            // some random math stuff i found online for "100% random numbers" even though its based on a seed ;-;
             g_seed = (214013 * g_seed + 2531011);
             cout << Chars[((g_seed >> 16) & 0x7FFF) % str_length];
         }
